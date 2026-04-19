@@ -18,3 +18,7 @@ dev = ["pytest>=7"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/worldsim_scene_master"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
